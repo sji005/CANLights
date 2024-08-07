@@ -1,5 +1,6 @@
 import QtQuick
 import CANproject
+import QtQuick.Controls
 Window {
     width: 650
     height: 300
@@ -29,6 +30,17 @@ Window {
             backwardTwoColor = "white"
             normalColor = "white"
             gear = 0
+        }
+    }
+
+    Button {
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.topMargin: 50
+        anchors.rightMargin: 50
+        text: qsTr("初始化")
+        onClicked: {
+            controller.initPort()
         }
     }
 
