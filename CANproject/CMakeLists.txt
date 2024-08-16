@@ -23,6 +23,9 @@ qt_add_qml_module(appCANproject
         SOURCES cancontroller.h cancontroller.cpp
         SOURCES canLib.h
         SOURCES deviceLib.h
+        SOURCES CANFDLib.h
+        SOURCES offline_type.h
+        SOURCES can_uds.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/lib)
