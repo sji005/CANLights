@@ -1,1 +1,0 @@
-C:/Users/jisiy/Documents/CANproject/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appCANproject_autogen/include/../EWIEGA46WW/moc_cancontroller.cpp.json
